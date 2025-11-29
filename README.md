@@ -21,10 +21,10 @@ Quick triage of MacOS history/session files and PowerShell script-block logs (41
 
 **Target platform: Windows (PowerShell Scrip-block logs | 4104)**
 ```powershell
-.\ForensicAnalyzer.ps1 -TargetDirectory "Z:\Path\To\WindowsPowerShellOperationalLogs" -Platform Windows
+.\CommandHunter.ps1 -TargetDirectory "Z:\Path\To\WindowsPowerShellOperationalLogs" -Platform Windows
 ```
 
 **Target platform: MacOS (any unix with .history + .session files)**
 ```powershell
-.\ForensicAnalyzer.ps1 -TargetDirectory "C:\Evidence\MacDump" -Platform MacOS
+.\CommandHunter.ps1 -TargetDirectory "C:\Evidence\MacDump" -Platform MacOS
 ```
