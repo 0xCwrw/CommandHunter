@@ -1,7 +1,7 @@
 # CommandHunter
 This script processes command history artifacts from Windows and MacOS - it can do any UNIX (idc nerds) command parsing as long as .history and .session files are present, it relies on .session files for temporal context. Set platform as MacOS because enabled by default there :).
 
-Quick triage of MacOS history/session files and PowerShell script-block logs (4104). Quick triage of MacOS history/session files and PowerShell script-block logs (4104). It adds temporal context to .history files via the associated .session file. Allows for quick parsing of PowerShell transcription logs, grouping by ID.
+Quick triage of MacOS history/session files and PowerShell script-block logs (4104). It adds temporal context to .history files via the associated .session file. Allows for quick parsing of PowerShell transcription logs, grouping by ID.
 
   Windows:
   - Scans recursively for .evtx files (but try to just have them in one folder :)).
